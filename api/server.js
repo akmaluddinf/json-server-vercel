@@ -24,7 +24,7 @@ server.use(jsonServer.rewriter({
 }))
 server.use(router)
 server.listen(5000, () => {
-    console.log('JSON Server is running')
+    console.log('JSON Server is running port 5000')
 })
 
 // Export the Server API
