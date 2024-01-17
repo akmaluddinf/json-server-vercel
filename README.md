@@ -22,13 +22,15 @@ Demo from this repository:
 
 ```json
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "products": [
+    {
+      "id": 3,
+      "name": "ROKO MAGNUM BINTANG",
+      "price": 24000,
+      "image": "https://th.bing.com/th/id/OIP.zdfu3i9D3FWvo_2L4Lb02QHaJ4?pid=ImgDet&rs=1",
+      "stock": 99
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
 }
 ```
 
